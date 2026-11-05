@@ -1,0 +1,48 @@
+{
+    "familyName": "Sandoya",
+    "moveInDate": "2025-05-18",
+    "numberOfPeople": 8,
+    "visitedByBishopric": true,
+    "familyMembers": [
+        {
+            "name": "Victor Sandoya",
+            "gender": "Male",
+            "birthDate": "1980-01-15"
+        },
+        {
+            "name": "Maria Sandoya",
+            "gender": "Female",
+            "birthDate": "1982-03-22"
+        },
+        {
+            "name": "Carlos Sandoya",
+            "gender": "Male",
+            "birthDate": "2005-07-10"
+        },
+        {
+            "name": "Sofia Sandoya",
+            "gender": "Female",
+            "birthDate": "2008-11-05"
+        },
+        {
+            "name": "Isabella Sandoya",
+            "gender": "Female",
+            "birthDate": "2010-02-18"
+        },
+        {
+            "name": "Mateo Sandoya",
+            "gender": "Male",
+            "birthDate": "2012-09-30"
+        },
+        {
+            "name": "Valentina Sandoya",
+            "gender": "Female",
+            "birthDate": "2015-06-12"
+        },
+        {
+            "name": "Emiliano Sandoya",
+            "gender": "Male",
+            "birthDate": "2018-04-25"
+        }
+    ]
+}

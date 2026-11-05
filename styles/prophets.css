@@ -1,0 +1,36 @@
+/* Contenedor principal de las tarjetas */
+#cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px; /* Espacio separador entre tarjeta y tarjeta */
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilo para cada tarjeta individual (section) */
+card, section { /* Asegúrate de que aplique a tu etiqueta section */
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo para las imágenes dentro de las tarjetas */
+section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section p {
+  margin: 6px 0;
+  font-size: 0.9rem;
+  color: #333333;
+}
