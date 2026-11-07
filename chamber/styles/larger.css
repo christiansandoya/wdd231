@@ -1,0 +1,75 @@
+@media (min-width: 768px) {
+    header {
+        padding: 1rem 2rem;
+    }
+
+    .site-title {
+        font-size: 1.35rem;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        position: static;
+        width: auto;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    #navigation {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    #navigation li a {
+        border-top: none;
+        padding: 0.5rem 0.75rem;
+        border-radius: 4px;
+    }
+
+    #navigation li a:hover,
+    #navigation li a.active {
+        background-color: var(--accent-gold);
+        color: var(--primary-blue);
+    }
+
+    #members-container.grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+
+    .member-card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .member-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+
+    #members-container.list .member-card {
+        padding: 1.25rem 1.5rem;
+    }
+
+    #members-container.list .member-info {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr 1fr auto;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #members-container.list .member-info .tagline {
+        display: block;
+        margin: 0;
+        font-size: 0.85rem;
+    }
+
+    #members-container.list .member-info .address {
+        display: block;
+        margin: 0;
+        font-size: 0.85rem;
+    }
+}

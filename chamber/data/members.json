@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Ferreycorp S.A.A.",
+    "address": "Jr. Cristóbal de Peralta Norte 820, Surco, Lima",
+    "phone": "+51 (01) 626-4000",
+    "website": "https://www.ferreycorp.com.pe",
+    "image": "ferreycorp.png",
+    "membershipLevel": 3,
+    "tagline": "Leading capital goods and heavy machinery corporation in Peru."
+  },
+  {
+    "name": "Credicorp Ltd.",
+    "address": "Calle Centenario 156, La Molina, Lima",
+    "phone": "+51 (01) 313-2000",
+    "website": "https://credicorp.gcs-web.com/",
+    "image": "credicorp.jpg",
+    "membershipLevel": 3,
+    "tagline": "Premier financial services holding company in Peru."
+  },
+  {
+    "name": "Compañía de Minas Buenaventura S.A.A.",
+    "address": "Av. Carlos Villarán 790, Santa Catalina, La Victoria, Lima",
+    "phone": "+51 (01) 419-2540",
+    "website": "https://www.buenaventura.com",
+    "image": "buenaventura.png",
+    "membershipLevel": 3,
+    "tagline": "Sustainable precious metals mining exploration and production."
+  },
+  {
+    "name": "Alicorp S.A.A.",
+    "address": "Av. Argentina 4793, Callao, Lima",
+    "phone": "+51 (01) 315-0800",
+    "website": "https://www.alicorp.com.pe",
+    "image": "alicorp.png",
+    "membershipLevel": 2,
+    "tagline": "Consumer goods, mass-market nutrition, and industrial products."
+  },
+  {
+    "name": "In Retail Pharma S.A.",
+    "address": "Av. Javier Prado Este 420, San Isidro, Lima",
+    "phone": "+51 (01) 618-8000",
+    "website": "https://www.inretail.pe",
+    "image": "inretail.png",
+    "membershipLevel": 2,
+    "tagline": "Retail and pharmaceutical distribution network across Peru."
+  },
+  {
+    "name": "Graña y Montero (Aenza S.A.A.)",
+    "address": "Av. Paseo de la República 4667, Surquillo, Lima",
+    "phone": "+51 (01) 213-6565",
+    "website": "https://www.aenza.com.pe",
+    "image": "aenza.png",
+    "membershipLevel": 2,
+    "tagline": "Engineering, infrastructure development, and real estate services."
+  },
+  {
+    "name": "Lima Chamber of Commerce SME Support Hub",
+    "address": "Av. Giuseppe Garibaldi 396, Jesús María, Lima",
+    "phone": "+51 (01) 463-3434",
+    "website": "https://www.camaralima.org.pe",
+    "image": "ccl.png",
+    "membershipLevel": 1,
+    "tagline": "Non-profit association dedicated to local small business growth."
+  }
+]
