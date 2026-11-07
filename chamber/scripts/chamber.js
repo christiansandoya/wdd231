@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Footer Dynamic Dates (Year & Last Modified)
     const currentYearSpan = document.getElementById('currentyear');
     const lastModifiedParagraph = document.getElementById('lastModified');
 
@@ -41,13 +40,12 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const displayMembers = (members) => {
-            membersContainer.innerHTML = ''; // Clear container
+            membersContainer.innerHTML = '';
 
             members.forEach(member => {
                 const card = document.createElement('section');
                 card.classList.add('member-card');
 
-                // Format membership level text & badge class
                 let levelText = '';
                 let levelClass = '';
                 if (member.membershipLevel === 3) {
@@ -62,9 +60,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 card.innerHTML = `
-                    <img src="images/${member.image}" alt="${member.name} logo/photo" loading="lazy">
+                    <img src="images/${member.image}" alt="${member.name} logo/photo" width="100" height="100" loading="lazy">
                     <div class="member-info">
-                        <h3>${member.name}</h3>
+                        <h2>${member.name}</h2>
                         <p class="tagline">"${member.tagline}"</p>
                         <p class="address">Adress: ${member.address}</p>
                         <p class="phone">Phone:${member.phone}</p>
@@ -79,7 +77,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         getMembers();
 
-        // 4. Grid / List View Toggle Logic
         const gridButton = document.getElementById('grid');
         const listButton = document.getElementById('list');
 
