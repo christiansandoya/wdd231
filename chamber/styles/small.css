@@ -97,7 +97,7 @@ nav.open {
 #navigation li a:hover,
 #navigation li a.active {
     background-color: var(--accent-gold);
-    color: #000000;
+    color: var(--white);
     font-weight: 600;
 }
 
