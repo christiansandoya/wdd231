@@ -1,10 +1,12 @@
 :root {
     --primary-blue: rgb(26, 31, 94);
-    --accent-gold: #c59b27;
-    --secondary-dark: #2c3e50;
+    --accent-gold: #9a6b05;
+    --secondary-dark: #1e293b;
     --white: #ffffff;
     --light-bg: #f8f9fa;
-    --gray-border: #e2e8f0;
+    --gray-border: #cbd5e1;
+    --text-on-light: #000000;
+    --text-on-dark: #ffffff;
     --font-family: 'Inter', Arial, sans-serif;
 }
 
@@ -95,7 +97,7 @@ nav.open {
 #navigation li a:hover,
 #navigation li a.active {
     background-color: var(--accent-gold);
-    color: var(--primary-blue);
+    color: #000000;
     font-weight: 600;
 }
 
@@ -121,19 +123,25 @@ h1 {
 
 .view-toggle button {
     background-color: var(--white);
-    border: 1px solid var(--gray-border);
+    color: var(--text-on-light);
+    border: 1px solid var(--secondary-dark);
     padding: 0.5rem 1.25rem;
     font-family: var(--font-family);
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
     border-radius: 4px;
     transition: all 0.2s ease;
 }
 
-.view-toggle button.active {
-    background-color: var(--primary-blue);
-    color: var(--white);
-    border-color: var(--primary-blue);
+.view-toggle button.active{
+    background-color: var(--secondary-dark);
+    color: var(--text-on-dark);
+    border-color: var(--secondary-dark);
+}
+
+.view-toggle button:hover {
+    background-color: #e2e8f0;
+    color: var(--text-on-light);
 }
 
 #members-container.grid {
@@ -189,7 +197,7 @@ h1 {
 .member-info .tagline {
     font-style: italic;
     font-size: 0.85rem;
-    color: #64748b;
+    color: #334155;
     margin-bottom: 0.75rem;
     min-height: 2.8rem;
     display: flex;
@@ -209,8 +217,8 @@ h1 {
 }
 
 .membership {
-    font-weight: 600;
-    padding: 0.2rem 0.6rem;
+    font-weight: 700;
+    padding: 0.25rem 0.75rem;
     border-radius: 12px;
     font-size: 0.85rem;
     display: inline-block;
@@ -218,18 +226,18 @@ h1 {
 }
 
 .membership.gold {
-    background-color: #fef3c7;
-    color: #92400e;
+    background-color: #78350f;
+    color: #ffffff;
 }
 
 .membership.silver {
-    background-color: #f1f5f9;
-    color: #334155;
+    background-color: #334155;
+    color: #ffffff;
 }
 
 .membership.member {
-    background-color: #ecfdf5;
-    color: #065f46;
+    background-color: #064e3b;
+    color: #ffffff;
 }
 
 .website-link {
@@ -247,8 +255,9 @@ h1 {
 
 .website-link:hover {
     background-color: var(--accent-gold);
-    color: var(--primary-blue);
-}
+    color: #000000;
+    font-weight: 600;
+    }
 
 #members-container.list {
     display: flex;
