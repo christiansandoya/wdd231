@@ -4,7 +4,7 @@
     "address": "Jr. Cristóbal de Peralta Norte 820, Surco, Lima",
     "phone": "+51 (01) 626-4000",
     "website": "https://www.ferreycorp.com.pe",
-    "image": "ferreycorp.png",
+    "image": "ferreycorp.webp",
     "membershipLevel": 3,
     "tagline": "Leading capital goods and heavy machinery corporation in Peru."
   },
@@ -13,7 +13,7 @@
     "address": "Calle Centenario 156, La Molina, Lima",
     "phone": "+51 (01) 313-2000",
     "website": "https://credicorp.gcs-web.com/",
-    "image": "credicorp.jpg",
+    "image": "credicorp.webp",
     "membershipLevel": 3,
     "tagline": "Premier financial services holding company in Peru."
   },
@@ -22,7 +22,7 @@
     "address": "Av. Carlos Villarán 790, Santa Catalina, La Victoria, Lima",
     "phone": "+51 (01) 419-2540",
     "website": "https://www.buenaventura.com",
-    "image": "buenaventura.png",
+    "image": "buenaventura.webp",
     "membershipLevel": 3,
     "tagline": "Sustainable precious metals mining exploration and production."
   },
@@ -31,7 +31,7 @@
     "address": "Av. Argentina 4793, Callao, Lima",
     "phone": "+51 (01) 315-0800",
     "website": "https://www.alicorp.com.pe",
-    "image": "alicorp.png",
+    "image": "alicorp.webp",
     "membershipLevel": 2,
     "tagline": "Consumer goods, mass-market nutrition, and industrial products."
   },
@@ -40,7 +40,7 @@
     "address": "Av. Javier Prado Este 420, San Isidro, Lima",
     "phone": "+51 (01) 618-8000",
     "website": "https://www.inretail.pe",
-    "image": "inretail.png",
+    "image": "inretail.webp",
     "membershipLevel": 2,
     "tagline": "Retail and pharmaceutical distribution network across Peru."
   },
@@ -58,7 +58,7 @@
     "address": "Av. Giuseppe Garibaldi 396, Jesús María, Lima",
     "phone": "+51 (01) 463-3434",
     "website": "https://www.camaralima.org.pe",
-    "image": "ccl.png",
+    "image": "ccl.webp",
     "membershipLevel": 1,
     "tagline": "Non-profit association dedicated to local small business growth."
   }
