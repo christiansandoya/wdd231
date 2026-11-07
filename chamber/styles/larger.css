@@ -41,12 +41,6 @@
         text-align: left;
     }
 
-    #navigation li a:hover,
-    #navigation li a.active {
-        background-color: var(--accent-gold);
-        color: var(--primary-blue);
-    }
-
     #members-container.grid {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 2rem;
