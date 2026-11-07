@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Member Directory | Lima Chamber of Commerce</title>
+    <title>Directory | Lima Chamber of Commerce</title>
     <meta name="description" content="Official directory of businesses associated with the Lima Chamber of Commerce. Connecting businesses and fostering enterprise development.">
     <meta name="author" content="Christian Sandoya">
 
     <script src="scripts/chamber.js" defer></script>
 
     <!-- Meta tags for social media-->
-    <meta property="og:title" content="Member Directory | Lima Chamber of Commerce">
+    <meta property="og:title" content="Directory | Lima Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:description" content="Official directory of businesses associated with the Lima Chamber of Commerce. Connecting businesses and fostering enterprise development.">
     <meta property="og:image" content="https://christiansandoya.github.io/wdd231/chamber/images/hero.png">
     <meta property="og:url" content="https://christiansandoya.github.io/wdd231/chamber/directory.html">
 
     <!--Google Fonts-->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+    <!-- Carga optimizada de Google Fonts sin bloqueo de renderizado -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     </noscript>
+
     <!--CSS-->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
