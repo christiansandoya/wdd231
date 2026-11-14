@@ -78,8 +78,6 @@
         font-size: 0.85rem;
     }
 
-    /* (Mantén tus reglas de navegación existentes aquí) */
-
     /* Home Page Grid Layout para Eventos y Clima */
     .home-grid {
         display: grid;
@@ -92,7 +90,7 @@
         margin-bottom: 0;
     }
 
-    /* Hero adjustments for desktop */
+    /* Hero adjustments */
     .hero-overlay {
         max-width: 500px;
         bottom: 40px;
