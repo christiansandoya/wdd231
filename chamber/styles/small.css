@@ -278,7 +278,7 @@ h1 {
 }
 
 #members-container.list .member-card img {
-    display: none; /* Ocultar imágenes en modo lista como exige la rúbrica */
+    display: none;
 }
 
 #members-container.list .member-info {
@@ -296,7 +296,7 @@ h1 {
 
 #members-container.list .member-info .tagline,
 #members-container.list .member-info .address {
-    display: none; /* Simplificar para ahorrar espacio en formato lista móvil */
+    display: none;
 }
 
 #members-container.list .member-info .phone {
@@ -308,7 +308,7 @@ h1 {
     margin: 0;
 }
 
-/* --- Hero Section & CTA --- */
+/* Hero Section & CTA */
 .hero {
     position: relative;
     width: 100%;
@@ -358,7 +358,7 @@ h1 {
     background-color: #a76d04;
 }
 
-/* --- Cards General Styling (Events, Weather, Spotlights) --- */
+/* Cards General Styling (Events, Weather, Spotlights) */
 .card {
     background-color: var(--white);
     border: 1px solid var(--gray-border);
@@ -376,7 +376,7 @@ h1 {
     margin-bottom: 1rem;
 }
 
-/* --- Horizontal 3-Day Forecast --- */
+/* Horizontal 3-Day Forecast */
 .forecast-grid {
     display: flex;
     justify-content: space-around;
@@ -403,7 +403,7 @@ h1 {
     margin: 0.2rem 0;
 }
 
-/* --- Spotlights Grid Mobile --- */
+/* Spotlights Grid Mobile */
 .spotlight-grid {
     display: flex;
     flex-direction: column;
