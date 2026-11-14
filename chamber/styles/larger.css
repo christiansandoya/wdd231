@@ -77,4 +77,37 @@
         margin: 0;
         font-size: 0.85rem;
     }
+
+    /* (Mantén tus reglas de navegación existentes aquí) */
+
+    /* Home Page Grid Layout para Eventos y Clima */
+    .home-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .home-grid .card {
+        margin-bottom: 0;
+    }
+
+    /* Hero adjustments for desktop */
+    .hero-overlay {
+        max-width: 500px;
+        bottom: 40px;
+        left: 40px;
+        text-align: center;
+    }
+
+    .hero-overlay h1 {
+        font-size: 2rem;
+    }
+
+    /* Spotlights multi-column layout */
+    .spotlight-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+    }
 }
